@@ -1,0 +1,44 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Questions</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: auto;
+        }
+        table, th, td {
+            border: 1.5px solid black;
+        }
+        th, td {
+            text-align: center;
+        }
+        th {
+            background-color: rgb(126, 243, 90);
+        }
+    </style>
+</head>
+<body>
+    <h1>Questions</h1>
+    <table>
+        <caption>There are some Posts</caption>
+        <tr>
+            <th><h2>Question ID</h2></th>
+            <th><h2>Question</h2></th>
+            <th><h2>Answers</h2></th>
+        </tr>
+        {% for ques in questions %}
+        <tr>
+            <td>{{ ques.id }}</td>
+            <td>{{ ques.question }}</td>
+            <td>{{ ques.answer }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="IgnoreFileDuplicateEntry" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="loader.dp" />
+          <option value="main.r8_Tp4smnJtX8OFAMENxsCNa1uLZnZ8AeH0pbbzQ" />
+          <option value="states.Personaldata" />
+          <option value="states.personalData" />
+          <option value="Basic.handlers.users.menu.keyboards" />
+          <option value="loader.db.get_message_chat_id" />
+          <option value="loader.db.add_user" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
